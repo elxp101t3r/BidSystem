@@ -1,7 +1,9 @@
 import os
+import art as a
 biding_list = []
 def biding_system(name,bid):
     biding_list.append({name:bid})
+print(a.logo)
 choice = 'yes'
 while choice == 'yes':
     name = input("Enter your name :\n")
